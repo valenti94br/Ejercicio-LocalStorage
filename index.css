@@ -1,0 +1,65 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIO</title>
+  <style>
+    body {
+      background-color: skyblue;
+      font-family: Arial, sans-serif;
+    }
+    
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      font-family: inherit;
+    }
+    
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      font-family: inherit;
+    }
+    
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #3e8e41;
+    }
+    
+    label {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    legend {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+  </style>
+</head>

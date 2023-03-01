@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+
+</head>
+
+<body>
+    <h1>Formulario Storage</h1>
+    <div>
+        <form id="formulario">
+            <fieldset style="width:500px">
+                <legend><b>Storage:</b></legend>
+                <div>
+                    <label for="nombre"><b>Nombre:</b></label>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" autofocus required>
+                </div>
+                <br>
+                <div>
+                    <label for="email"><b>E-mail:</b></label>
+                    <<input type="email" id="email" name="email" placeholder="Escribe tu correo" required>
+                </div>
+                <br>
+                <div>
+                    <p><b>Mensaje:</b></p>
+                    <textarea name="mensaje" id="mensaje" rows="10" cols="30"
+                        placeholder="Escribe un mensaje"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </fieldset>
+            <br>
+        </form>
+        <div class="container"></div>
+        <div class="container2"></div>
+        <button id="btn-borrar">Borrar todo</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
